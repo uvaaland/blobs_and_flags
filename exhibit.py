@@ -13,7 +13,7 @@ def format_html(images):
         lines = iter(template.readlines())
 
     stylesheet = "<link rel=\"stylesheet\" href=\"css/theme/night.css\">\n"
-    title = "<section><h1>Blobs And Flags</h1></section>\n"
+    title = "<section><h1>Blobs & Flags</h1></section>\n"
     img = "<section><img src=\"../{}\" width=\"1200\" height=\"500\"></section>\n"
 
     content = []
